@@ -3,7 +3,7 @@
 A small React app that renders a grid of profile cards from a plain JavaScript array.
 One reusable `ProfileCard` component — the data decides what each card says.
 
-![Finished grid](./screenshot.png)
+![Finished grid](./screenshot-grid.png)
 
 ## Setup
 
