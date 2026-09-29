@@ -1,0 +1,49 @@
+.card {
+  background: #fff;
+  border: 1px solid #e2e5ec;
+  border-radius: 12px;
+  padding: 24px 20px;
+  text-align: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(20, 20, 60, 0.12);
+}
+
+.card.featured {
+  border: 2px solid #d4a017;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+
+.card:hover .avatar {
+  transform: scale(1.08);
+}
+
+.name {
+  margin: 12px 0 4px;
+  font-size: 1.2rem;
+  color: #1b1450;
+}
+
+.title {
+  margin: 0 0 12px;
+  color: #3a67cf;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.bio {
+  margin: 0;
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
